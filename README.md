@@ -71,7 +71,7 @@ To measure the temperature sensitivity of a fiber with an embedded Bragg grating
 
 ### 📈 Plot: Bragg Wavelength vs. Temperature
 
-![FBG Temperature Plot](photos/plot.png)
+![FBG Temperature Plot](https://github.com/samueloladosu37/fiber-bragg-gratings/blob/main/Plot.png)
 
 > 📌 **Observation**: A **linear increase** in Bragg wavelength with temperature was observed.
 
