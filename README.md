@@ -54,8 +54,11 @@ To measure the temperature sensitivity of a fiber with an embedded Bragg grating
 ![Sample Setup](https://github.com/samueloladosu37/fiber-bragg-gratings/blob/main/Setup.png)
 
 ---
-### 📈 Plot: Bragg Wavelength vs. Temperature
-![A section of optical fiber with a Bragg grating](https://github.com/samueloladosu37/fiber-bragg-gratings/blob/main/Plot.png)
+
+### A section of optical fiber with a Bragg grating
+![A section of optical fiber with a Bragg grating](https://github.com/samueloladosu37/fiber-bragg-gratings/blob/main/A%20section%20of%20optical%20fiber%20with%20a%20Bragg%20grating.png)
+
+---
 ## 📊 Results
 
 | Temperature (°C) | Bragg Wavelength (nm) |
@@ -80,7 +83,17 @@ To measure the temperature sensitivity of a fiber with an embedded Bragg grating
 ## 📐 Analysis
 
 - **Dependency**:  
-  \[\lambda_B = 2 \cdot n_{\text{eff}} \cdot \Lambda\]  
+  The relation between the Bragg wavelength and temperature is given by:
+
+`λ_B(T) = λ_B(0) * [1 + (α + ξ) * ΔT]`
+
+Where:
+- `λ_B(T)` is the Bragg wavelength at temperature `T`
+- `λ_B(0)` is the initial Bragg wavelength at reference temperature
+- `α` is the thermal expansion coefficient
+- `ξ` is the thermo-optic coefficient
+- `ΔT = T - T₀` is the change in temperature
+
   As temperature rises, both the effective refractive index and grating period increase → Bragg wavelength increases.
 
 - **System Sensitivity**:  
@@ -101,9 +114,6 @@ To measure the temperature sensitivity of a fiber with an embedded Bragg grating
 
 ---
 
-
----
-
 ### 🔧 Real-World Applications of FBG Sensors
 
 | Sector                | Application Example                                                          |
@@ -118,20 +128,6 @@ To measure the temperature sensitivity of a fiber with an embedded Bragg grating
 
 ---
 
-## 📁 Project Files
-
-- `lab2.pdf` – Lab report and raw data  
-- `photos/plot.png` – Bragg wavelength vs. temperature graph  
-- `manual.pdf` – Fiber Bragg Grating theory (PL)  
-- `README.md` – This file  
-
----
-
-## 📚 References
-
-- Lee, B. (2003). Review of the present status of optical fiber sensors. *Optical Fiber Technology*.  
-- Vengsarkar et al. (1994). Dual-technique sensor for simultaneous strain and temperature measurement.  
-- Karpienko et al. (2014). Refractive index determination using Fabry–Perot interferometer.  
-- Zawawi & O'Keeffe (2013). Intensity-modulated fiber optic sensors: A review.  
+## 📚 References 
 - Kaczmarek, Z. (2008). *Światłowodowe czujniki i przetworniki pomiarowe*.
 
