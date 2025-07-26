@@ -55,7 +55,7 @@ To measure the temperature sensitivity of a fiber with an embedded Bragg grating
 
 ---
 
-### A section of optical fiber with a Bragg grating
+### A section of optical fiber with Bragg grating
 ![A section of optical fiber with a Bragg grating](https://github.com/samueloladosu37/fiber-bragg-gratings/blob/main/A%20section%20of%20optical%20fiber%20with%20a%20Bragg%20grating.png)
 
 ---
@@ -76,7 +76,7 @@ To measure the temperature sensitivity of a fiber with an embedded Bragg grating
 
 ![FBG Temperature Plot](https://github.com/samueloladosu37/fiber-bragg-gratings/blob/main/Plot.png)
 
-> 📌 **Observation**: A **linear increase** in Bragg wavelength with temperature was observed.
+> 📌 **Observation**: A **linear increase** in Bragg wavelength with temperature was observed. The linearity suggests stable material properties and consistent sensor behavior over the measured range. The experimental relationship validates the mathematical dependency between the temperature and bragg wavelength.
 
 ---
 
