@@ -125,6 +125,7 @@ Where:
 | 🏥 Medical Technology  | Non-metallic, EMI-safe sensing in MRI environments, surgical tools, and catheters |
 | 🚄 Transportation      | Rail track movement and thermal expansion detection in tunnels and metros      |
 | Data Center Infrastruture| Temperature monitoring in server racks, environment monitoring    |
+| Optical Communication|  Notch filters, Optical multiplexers and demultiplexers with an optical circulator, or optical add-drop multiplexer (OADM)   |
 
 ---
 
