@@ -3,9 +3,8 @@
 
 ## 📘 Introduction
 
-Fiber Bragg Gratings (FBGs) are periodic structures inscribed in the core of optical fibers that reflect specific wavelengths of light while transmitting others. These reflected wavelengths — called **Bragg wavelengths** — shift predictably in response to changes in **temperature** and **strain**, making FBGs ideal for advanced sensing applications.
+Fiber Bragg Gratings (FBGs) are periodic structures inscribed in the core of optical fibers that reflect specific wavelengths of light while transmitting others. These reflected wavelengths — called **Bragg wavelengths** — shift predictably in response to changes in **temperature** and **strain**, making FBGs ideal for advanced sensing applications. This experiment demonstrates how a Bragg grating sensor can be used to detect temperature changes by tracking the shift in the reflected wavelenght as the fiber is heated.
 
-This experminent demonstrates how a Bragg grating sensor can be used to detect **temperature changes** by tracking the shift in reflected wavelength as the fiber is heated.
 ---
 ## 🌍 Real-World Relevance: Why This Experiment Matters
 
@@ -52,10 +51,11 @@ To measure the temperature sensitivity of a fiber with an embedded Bragg grating
 - **Control Unit**: Programmable temperature controller with heating element
 - **Range**: 40°C to 100°C, in 10°C increments
 
-![Sample Setup](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Fiber-Bragg-Grating.png/640px-Fiber-Bragg-Grating.png)
+![Sample Setup](https://github.com/samueloladosu37/fiber-bragg-gratings/blob/main/Setup.png)
 
 ---
-
+### 📈 Plot: Bragg Wavelength vs. Temperature
+![A section of optical fiber with a Bragg grating](https://github.com/samueloladosu37/fiber-bragg-gratings/blob/main/Plot.png)
 ## 📊 Results
 
 | Temperature (°C) | Bragg Wavelength (nm) |
@@ -80,9 +80,7 @@ To measure the temperature sensitivity of a fiber with an embedded Bragg grating
 ## 📐 Analysis
 
 - **Dependency**:  
-  \[
-  \lambda_B = 2 \cdot n_{\text{eff}} \cdot \Lambda
-  \]  
+  \[\lambda_B = 2 \cdot n_{\text{eff}} \cdot \Lambda\]  
   As temperature rises, both the effective refractive index and grating period increase → Bragg wavelength increases.
 
 - **System Sensitivity**:  
